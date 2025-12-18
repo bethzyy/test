@@ -26,7 +26,7 @@ python job_scraper.py
 
 **需要抓动态页面就运行：**
 ```bash
-python selenium_job_scraper.py
+python dynamic_job_scraper.py
 ```
 
 工具会自动分析每个网址，告诉你哪些是软件开发职位，哪些不是。
@@ -47,6 +47,6 @@ python selenium_job_scraper.py
 
 ## 文件说明
 - `job_scraper.py` - 基础爬虫，速度快，适合静态页面
-- `selenium_job_scraper.py` - Selenium爬虫，能处理动态页面
+- `dynamic_job_scraper.py` - Selenium爬虫，能处理动态页面
 - `config.py` - 配置文件，可以自定义关键词
 - `joburl.txt` - 存放要检查的招聘网址
